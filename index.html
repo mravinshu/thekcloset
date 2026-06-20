@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The K Closet — Premium Ethnic Wear | Designer Indian Clothing</title>
+  <meta name="description" content="Discover exquisite handcrafted ethnic wear at The K Closet. Premium designer suits, bridal lehengas, party wear, and embroidered collections. Shop luxury Indian fashion online." />
+  <meta name="keywords" content="ethnic wear, designer suits, bridal lehenga, party wear, Indian clothing, embroidered suits, salwar kameez, The K Closet" />
+  <meta property="og:title" content="The K Closet — Premium Ethnic Wear" />
+  <meta property="og:description" content="Discover exquisite handcrafted ethnic wear. Premium designer suits, bridal lehengas, and embroidered collections." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.thekcloset.in" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-logo">THE K CLOSET</div>
+      <div class="preloader-line"></div>
+    </div>
+  </div>
+
+  <!-- Glitter Canvas -->
+  <canvas id="glitter-canvas"></canvas>
+
+  <!-- Cursor Glow -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <a href="#" class="nav-logo">THE <span>K</span> CLOSET</a>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#collections">Collections</a>
+      <a href="#shop">Shop</a>
+      <a href="#story">Our Story</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+      <a href="https://wa.me/919255469840?text=Hi%20The%20K%20Closet!%20I'm%20interested%20in%20your%20collection." class="nav-cta" target="_blank" rel="noopener">WhatsApp Us</a>
+    </div>
+    <div class="nav-hamburger" id="navHamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="images/hero_banner.png" alt="The K Closet — Luxury Ethnic Fashion" />
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag">✦ Curated Ethnic Luxury ✦</p>
+      <h1 class="hero-title">Where Tradition Meets <em>Elegance</em></h1>
+      <p class="hero-subtitle">Handpicked designer ethnic wear that celebrates the artistry of Indian craftsmanship. Each piece tells a story of heritage and grace.</p>
+      <div class="hero-buttons">
+        <a href="#shop" class="btn btn-primary">Explore Collection</a>
+        <a href="https://wa.me/919255469840?text=Hi!%20I'd%20love%20to%20see%20your%20latest%20collection." target="_blank" rel="noopener" class="btn btn-outline">Chat on WhatsApp</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <div class="marquee-item">Ethnic Suits <span class="dot"></span></div>
+      <div class="marquee-item">Designer Wear <span class="dot"></span></div>
+      <div class="marquee-item">Bridal Collection <span class="dot"></span></div>
+      <div class="marquee-item">Party Wear <span class="dot"></span></div>
+      <div class="marquee-item">Embroidered Collection <span class="dot"></span></div>
+      <div class="marquee-item">Salwar Kameez <span class="dot"></span></div>
+      <div class="marquee-item">Ethnic Suits <span class="dot"></span></div>
+      <div class="marquee-item">Designer Wear <span class="dot"></span></div>
+      <div class="marquee-item">Bridal Collection <span class="dot"></span></div>
+      <div class="marquee-item">Party Wear <span class="dot"></span></div>
+      <div class="marquee-item">Embroidered Collection <span class="dot"></span></div>
+      <div class="marquee-item">Salwar Kameez <span class="dot"></span></div>
+    </div>
+  </div>
+
+  <!-- Categories Section -->
+  <section class="categories" id="collections">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Our Collections</span>
+        <h2 class="section-title">Explore by <em>Category</em></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="categories-grid">
+        <div class="category-card reveal delay-1" onclick="window.location.hash='shop'">
+          <img src="images/ethnic_suit_1.png" alt="Ethnic Suits Collection" loading="lazy" />
+          <div class="category-overlay">
+            <div class="category-name">Ethnic Suits</div>
+            <div class="category-count">12+ Designs</div>
+          </div>
+        </div>
+        <div class="category-card reveal delay-2" onclick="window.location.hash='shop'">
+          <img src="images/designer_wear_1.png" alt="Designer Wear Collection" loading="lazy" />
+          <div class="category-overlay">
+            <div class="category-name">Designer Wear</div>
+            <div class="category-count">8+ Designs</div>
+          </div>
+        </div>
+        <div class="category-card reveal delay-3" onclick="window.location.hash='shop'">
+          <img src="images/party_wear_1.png" alt="Party Wear Collection" loading="lazy" />
+          <div class="category-overlay">
+            <div class="category-name">Party Wear</div>
+            <div class="category-count">10+ Designs</div>
+          </div>
+        </div>
+        <div class="category-card reveal delay-4" onclick="window.location.hash='shop'">
+          <img src="images/bridal_collection_1.png" alt="Bridal Collection" loading="lazy" />
+          <div class="category-overlay">
+            <div class="category-name">Bridal Collection</div>
+            <div class="category-count">6+ Designs</div>
+          </div>
+        </div>
+        <div class="category-card reveal delay-5" onclick="window.location.hash='shop'">
+          <img src="images/embroidered_suit_1.png" alt="Embroidered Collection" loading="lazy" />
+          <div class="category-overlay">
+            <div class="category-name">Embroidered</div>
+            <div class="category-count">15+ Designs</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products Section -->
+  <section class="featured" id="shop">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Handpicked for You</span>
+        <h2 class="section-title">Our <em>Bestsellers</em></h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="products-grid">
+
+        <!-- Product 1 -->
+        <div class="product-card reveal delay-1">
+          <div class="product-image">
+            <img src="images/ethnic_suit_1.png" alt="Lavender Dream Embroidered Suit" loading="lazy" />
+            <span class="product-badge">Bestseller</span>
+            <div class="product-quick-view">
+              <a href="https://wa.me/919255469840?text=Hi!%20I'm%20interested%20in%20product%20KC-1001%20(Lavender%20Dream%20Embroidered%20Suit).%20Please%20share%20details." target="_blank" rel="noopener" class="btn btn-whatsapp">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Buy Now on WhatsApp
+              </a>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-category">Ethnic Suits</div>
+            <h3 class="product-name">Lavender Dream Embroidered Suit</h3>
+            <p class="product-description">Exquisite lavender silk suit with intricate silver threadwork and sequin embroidery. Complete with matching dupatta.</p>
+            <div class="product-footer">
+              <span class="product-price">₹4,999</span>
+              <span class="product-id">ID: KC-1001</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card reveal delay-2">
+          <div class="product-image">
+            <img src="images/designer_wear_1.png" alt="Royal Maroon Bridal Lehenga" loading="lazy" />
+            <span class="product-badge">Premium</span>
+            <div class="product-quick-view">
+              <a href="https://wa.me/919255469840?text=Hi!%20I'm%20interested%20in%20product%20KC-1002%20(Royal%20Maroon%20Bridal%20Lehenga).%20Please%20share%20details." target="_blank" rel="noopener" class="btn btn-whatsapp">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Buy Now on WhatsApp
+              </a>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-category">Bridal Collection</div>
+            <h3 class="product-name">Royal Maroon Bridal Lehenga</h3>
+            <p class="product-description">Stunning maroon velvet lehenga with heavy zardozi gold embroidery. Perfect for your dream wedding.</p>
+            <div class="product-footer">
+              <span class="product-price">₹12,999</span>
+              <span class="product-id">ID: KC-1002</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card reveal delay-3">
+          <div class="product-image">
+            <img src="images/party_wear_1.png" alt="Emerald Elegance Anarkali" loading="lazy" />
+            <span class="product-badge">New Arrival</span>
+            <div class="product-quick-view">
+              <a href="https://wa.me/919255469840?text=Hi!%20I'm%20interested%20in%20product%20KC-1003%20(Emerald%20Elegance%20Anarkali).%20Please%20share%20details." target="_blank" rel="noopener" class="btn btn-whatsapp">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Buy Now on WhatsApp
+              </a>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-category">Party Wear</div>
+            <h3 class="product-name">Emerald Elegance Anarkali</h3>
+            <p class="product-description">Flowing emerald green anarkali with golden border and embroidered neckline. A show-stopper at every event.</p>
+            <div class="product-footer">
+              <span class="product-price">₹6,499</span>
+              <span class="product-id">ID: KC-1003</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card reveal delay-1">
+          <div class="product-image">
+            <img src="images/bridal_collection_1.png" alt="Blush Pink Bridal Lehenga" loading="lazy" />
+            <span class="product-badge">Bridal</span>
+            <div class="product-quick-view">
+              <a href="https://wa.me/919255469840?text=Hi!%20I'm%20interested%20in%20product%20KC-1004%20(Blush%20Pink%20Bridal%20Lehenga).%20Please%20share%20details." target="_blank" rel="noopener" class="btn btn-whatsapp">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Buy Now on WhatsApp
+              </a>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-category">Bridal Collection</div>
+            <h3 class="product-name">Blush Pink Bridal Lehenga</h3>
+            <p class="product-description">Ethereal pastel pink lehenga with mirror work and gold thread embroidery. Your fairy-tale bridal moment.</p>
+            <div class="product-footer">
+              <span class="product-price">₹15,999</span>
+              <span class="product-id">ID: KC-1004</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card reveal delay-2">
+          <div class="product-image">
+            <img src="images/embroidered_suit_1.png" alt="Royal Blue Chikankari Suit" loading="lazy" />
+            <div class="product-quick-view">
+              <a href="https://wa.me/919255469840?text=Hi!%20I'm%20interested%20in%20product%20KC-1005%20(Royal%20Blue%20Chikankari%20Suit).%20Please%20share%20details." target="_blank" rel="noopener" class="btn btn-whatsapp">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Buy Now on WhatsApp
+              </a>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-category">Embroidered Collection</div>
+            <h3 class="product-name">Royal Blue Chikankari Suit</h3>
+            <p class="product-description">Rich royal blue suit with silver chikankari and zari embroidery. Comes with matching pants and dupatta.</p>
+            <div class="product-footer">
+              <span class="product-price">₹5,499</span>
+              <span class="product-id">ID: KC-1005</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card reveal delay-3">
+          <div class="product-image">
+            <img src="images/designer_saree_1.png" alt="Champagne Gold Designer Saree" loading="lazy" />
+            <span class="product-badge">Exclusive</span>
+            <div class="product-quick-view">
+              <a href="https://wa.me/919255469840?text=Hi!%20I'm%20interested%20in%20product%20KC-1006%20(Champagne%20Gold%20Designer%20Saree).%20Please%20share%20details." target="_blank" rel="noopener" class="btn btn-whatsapp">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Buy Now on WhatsApp
+              </a>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-category">Designer Wear</div>
+            <h3 class="product-name">Champagne Gold Designer Saree</h3>
+            <p class="product-description">Luxurious champagne gold saree with delicate pearl and crystal embellishment. Pure sophistication.</p>
+            <div class="product-footer">
+              <span class="product-price">₹8,999</span>
+              <span class="product-id">ID: KC-1006</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card reveal delay-1">
+          <div class="product-image">
+            <img src="images/ethnic_suit_2.png" alt="Rose Petal Sharara Set" loading="lazy" />
+            <span class="product-badge">Trending</span>
+            <div class="product-quick-view">
+              <a href="https://wa.me/919255469840?text=Hi!%20I'm%20interested%20in%20product%20KC-1007%20(Rose%20Petal%20Sharara%20Set).%20Please%20share%20details." target="_blank" rel="noopener" class="btn btn-whatsapp">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Buy Now on WhatsApp
+              </a>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-category">Ethnic Suits</div>
+            <h3 class="product-name">Rose Petal Sharara Set</h3>
+            <p class="product-description">Dusty rose pink sharara set with flared pants and delicate gold embroidery. Elegant femininity redefined.</p>
+            <div class="product-footer">
+              <span class="product-price">₹5,999</span>
+              <span class="product-id">ID: KC-1007</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product-card reveal delay-2">
+          <div class="product-image">
+            <img src="images/designer_wear_2.png" alt="Noir Royale Anarkali Set" loading="lazy" />
+            <span class="product-badge">Limited</span>
+            <div class="product-quick-view">
+              <a href="https://wa.me/919255469840?text=Hi!%20I'm%20interested%20in%20product%20KC-1008%20(Noir%20Royale%20Anarkali%20Set).%20Please%20share%20details." target="_blank" rel="noopener" class="btn btn-whatsapp">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Buy Now on WhatsApp
+              </a>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-category">Designer Wear</div>
+            <h3 class="product-name">Noir Royale Anarkali Set</h3>
+            <p class="product-description">Opulent black and gold anarkali with heavy sequin and crystal embellishment. Dramatic evening glamour.</p>
+            <div class="product-footer">
+              <span class="product-price">₹7,999</span>
+              <span class="product-id">ID: KC-1008</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 9 -->
+        <div class="product-card reveal delay-3">
+          <div class="product-image">
+            <img src="images/party_wear_2.png" alt="Teal Mirror Work Lehenga" loading="lazy" />
+            <span class="product-badge">Festive</span>
+            <div class="product-quick-view">
+              <a href="https://wa.me/919255469840?text=Hi!%20I'm%20interested%20in%20product%20KC-1009%20(Teal%20Mirror%20Work%20Lehenga).%20Please%20share%20details." target="_blank" rel="noopener" class="btn btn-whatsapp">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Buy Now on WhatsApp
+              </a>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-category">Party Wear</div>
+            <h3 class="product-name">Teal Mirror Work Lehenga</h3>
+            <p class="product-description">Gorgeous teal lehenga choli with mirror work and silver embroidery. A festive favourite for celebrations.</p>
+            <div class="product-footer">
+              <span class="product-price">₹9,499</span>
+              <span class="product-id">ID: KC-1009</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Story Section -->
+  <section class="story" id="story">
+    <div class="container">
+      <div class="story-grid">
+        <div class="story-image reveal-left">
+          <img src="images/hero_banner.png" alt="The K Closet — Our Story" loading="lazy" />
+        </div>
+        <div class="story-content reveal-right">
+          <span class="section-tag">Our Story</span>
+          <h3>Crafting <em>Elegance</em>, One Piece at a Time</h3>
+          <p class="story-text">At The K Closet, we believe every woman deserves to feel like royalty. Our journey began with a simple passion — bringing exquisite, handcrafted ethnic wear to women who appreciate the artistry of Indian fashion.</p>
+          <p class="story-text">Each piece in our collection is carefully curated from the finest artisans across India, ensuring that every thread, every sequin, and every embroidery motif tells a story of heritage and impeccable craftsmanship.</p>
+          <div class="story-stats">
+            <div class="stat-item reveal delay-1">
+              <div class="stat-number shimmer-text">500+</div>
+              <div class="stat-label">Happy Clients</div>
+            </div>
+            <div class="stat-item reveal delay-2">
+              <div class="stat-number shimmer-text">50+</div>
+              <div class="stat-label">Unique Designs</div>
+            </div>
+            <div class="stat-item reveal delay-3">
+              <div class="stat-number shimmer-text">5+</div>
+              <div class="stat-label">Exhibitions</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="reviews">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Client Love</span>
+        <h2 class="section-title">What Our <em>Clients</em> Say</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal delay-1">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">Received my parcel today and I'm absolutely in love! The embroidery work is even more beautiful in person. Thank you so much K Closet!</p>
+          <div class="testimonial-author">Priya Sharma</div>
+          <div class="testimonial-location">Delhi, India</div>
+          <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+        </div>
+        <div class="testimonial-card reveal delay-2">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">The quality is unmatched at this price point. I wore the bridal lehenga to my cousin's wedding and got so many compliments. Will definitely order again!</p>
+          <div class="testimonial-author">Ananya Gupta</div>
+          <div class="testimonial-location">Mumbai, India</div>
+          <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+        </div>
+        <div class="testimonial-card reveal delay-3">
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">Loved the personal touch — they helped me choose the perfect outfit over WhatsApp. The fabric is premium and the fitting was just right. Highly recommend!</p>
+          <div class="testimonial-author">Ritu Kapoor</div>
+          <div class="testimonial-location">Jaipur, India</div>
+          <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instagram Section -->
+  <section class="instagram-section" id="instagram">
+    <div class="container">
+      <div class="instagram-header reveal">
+        <span class="section-tag">Follow Us</span>
+        <h2 class="section-title">On <em>Instagram</em></h2>
+        <div class="section-line"></div>
+        <a href="https://www.instagram.com/thekcloset.official/" target="_blank" rel="noopener" class="instagram-handle">@thekcloset.official</a>
+      </div>
+      <div class="instagram-grid reveal">
+        <div class="instagram-item">
+          <img src="images/ethnic_suit_1.png" alt="Instagram Post" loading="lazy" />
+        </div>
+        <div class="instagram-item">
+          <img src="images/designer_wear_1.png" alt="Instagram Post" loading="lazy" />
+        </div>
+        <div class="instagram-item">
+          <img src="images/party_wear_2.png" alt="Instagram Post" loading="lazy" />
+        </div>
+        <div class="instagram-item">
+          <img src="images/bridal_collection_1.png" alt="Instagram Post" loading="lazy" />
+        </div>
+        <div class="instagram-item">
+          <img src="images/designer_wear_2.png" alt="Instagram Post" loading="lazy" />
+        </div>
+        <div class="instagram-item">
+          <img src="images/embroidered_suit_1.png" alt="Instagram Post" loading="lazy" />
+        </div>
+        <div class="instagram-item">
+          <img src="images/ethnic_suit_2.png" alt="Instagram Post" loading="lazy" />
+        </div>
+        <div class="instagram-item">
+          <img src="images/designer_saree_1.png" alt="Instagram Post" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner reveal" id="contact">
+    <div class="container">
+      <h2 class="cta-title">Ready to Find Your <em>Dream Outfit</em>?</h2>
+      <p class="cta-text">Chat with us on WhatsApp for personalized styling advice, custom orders, and exclusive deals.</p>
+      <a href="https://wa.me/919255469840?text=Hi%20The%20K%20Closet!%20I'd%20love%20to%20explore%20your%20collection%20and%20get%20styling%20advice." target="_blank" rel="noopener" class="btn btn-whatsapp" style="font-size: 0.85rem; padding: 18px 40px;">
+        <svg viewBox="0 0 24 24" fill="currentColor" style="width: 20px; height: 20px;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Start Shopping on WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">THE <span>K</span> CLOSET</a>
+          <p>Curating timeless ethnic elegance for the modern Indian woman. Every piece is handpicked to make you feel extraordinary.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/thekcloset.official/" target="_blank" rel="noopener" aria-label="Instagram">📷</a>
+            <a href="https://wa.me/919255469840" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+            <a href="https://www.thekcloset.in" target="_blank" rel="noopener" aria-label="Website">🌐</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#collections">Collections</a>
+            <a href="#shop">Shop</a>
+            <a href="#story">Our Story</a>
+            <a href="#reviews">Reviews</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Collections</h4>
+          <div class="footer-links">
+            <a href="#shop">Ethnic Suits</a>
+            <a href="#shop">Designer Wear</a>
+            <a href="#shop">Party Wear</a>
+            <a href="#shop">Bridal Collection</a>
+            <a href="#shop">Embroidered</a>
+          </div>
+        </div>
+        <div class="footer-col footer-contact">
+          <h4 class="footer-heading">Get in Touch</h4>
+          <p><span>📱</span> +91 92554 69840</p>
+          <p><span>📧</span> thekcloset.official@gmail.com</p>
+          <p><span>🌐</span> www.thekcloset.in</p>
+          <p><span>📍</span> India</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 The K Closet. All rights reserved. Crafted with ♥ in India.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/919255469840?text=Hi%20The%20K%20Closet!%20I'm%20interested%20in%20your%20collection." target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chat on WhatsApp" id="whatsappFloat">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="index.js"></script>
+</body>
+</html>
